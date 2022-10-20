@@ -10,35 +10,24 @@ package com.exception.main;
 public class ArithmeticException01 {
 	
 	public static void main(String[] args) {
-		
 		try {    // try block
-			
 			int x = 100, y = 0;
-			
 			int result = divide(x , y);//calling method
 			
 			System.out.println("\n RESULT : "+result);//print result
 			}
-		
 		catch (ArithmeticException ex){ //catch 1
-			
 			System.out.println(" ArithmeticException occurs.");//message
-			
 			} 
 		catch (Exception ex) {//catch 2
 			
-		   System.out.println("\n Invalid divisor: Division by zero can't be processed.");//message
-		    
+		   System.out.println("\n Invalid divisor: Division by zero can't be processed.");//message  
 		}
-		
-          
 	}
-	
 	public static int divide(int x, int y) {//static divide method with two parameters
 		
 		int result = x / y;
 		
 		return result ;
-	   
 	}
 }
