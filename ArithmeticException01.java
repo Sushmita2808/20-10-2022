@@ -27,12 +27,10 @@ public class ArithmeticException01 {
 			} 
 		catch (Exception ex) {//catch 2
 			
-		    System.out.println(" Other Exception occurs.");//message
+		   System.out.println("\n Invalid divisor: Division by zero can't be processed.");//message
 		    
-			}
+		}
 		
-		//outside the try-catch block
-		System.out.println("\n Invalid divisor: Division by zero can't be processed.");//message
           
 	}
 	
